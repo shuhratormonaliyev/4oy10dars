@@ -59,14 +59,161 @@
 
 // ========================= 1 -misol ======================
 
+// let arr = [1, -2, 3, 4, -5, 6, -7, 8, -9, 10];
+
+// let sum = arr.filter(function(value) {
+//   return value > 0;
+// });
+
+// console.log(sum);
+
+
+
+// ========================= 2 -misol ======================
+
+
+
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// let sum = arr.filter(function (value) {
+//   if(value % 2 == 0) {
+//     return value;
+//   }
+// })
+// console.log(sum);
+
+
+
+// ========================= 3 -misol ======================
+
+
+// let arr = ["olma", "banan", "kivi", "ananas", "mandarin", "shaftoli"];
+
+// let sum = arr.filter(function(value) {
+//   return value.length < 5
+ 
+// }
+// )
+// console.log(sum);
+
+
+// ========================= 4 -misol ======================
+
+
+
+// let arr = [12, 55, 37, 11, 33, 22, 88, 9, 1, 3, 4, 5, 6, 7];
+
+// let sum = arr.filter(function(value){
+//   return value > 18
+// })
+// console.log(sum);
 
 
 
 
-const nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-const evenOnly = nums.filter(function (n) {
-  const remainder = n % 2
 
-  return remainder === 0
-})
+
+// map metodi yordamida ishlanadigan masalalar.
+
+
+// ========================= 1 -misol ======================
+
+
+
+// let arr = [1, 3, 4, 5, 6, 8, 9];
+
+// let sum = arr.map(function(value){
+//   return value * value
+// })
+// console.log(sum);
+
+
+// ========================= 2 -misol ======================
+
+
+// let arr = [1, 3, 4, 5, 6, 8, 9];
+
+// let sum = arr.map(function(value){
+//   return value + 5
+// })
+// console.log(sum);
+
+
+// ========================= 3 -misol ======================
+
+
+
+// let arr = ["olma", "banan", "kivi", "ananas", "mandarin", "shaftoli"];
+
+// let sum = arr.map(function(value){
+//   return value.toUpperCase();
+// });
+// console.log(sum);
+
+
+// ========================= 4 -misol ======================
+
+
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8 ,9];
+
+// let sum = arr.map(function(value){
+//   return value * value
+// })
+// console.log(sum);
+
+
+
+
+
+// some/every metodi yordamida ishlanadigan masalalar.
+
+
+// ========================= 1 -misol ======================
+
+
+// let arr = [1, 3, 4, 5 ,6 ,-1, -2, 12, 14, 154];
+
+// let sum = arr.some(function(value){
+//   return value < 0
+// })
+// console.log(sum);
+
+
+// ========================= 2 -misol ======================
+
+
+
+// let arr = ["apple", "banana", "cherry", "watermelonand", "grape", "strawberry"];
+
+// let sum = arr.some(function(value){
+//   return value.length > 10
+// })
+// console.log(sum);
+
+
+// ========================= 3 -misol ======================
+
+
+// const numbers = [1, -2, 3, 4, 5];
+
+// const all = numbers.every(num => num > 0);
+
+// console.log(all); 
+
+
+// ========================= 4 -misol ======================
+
+
+// let arr = ["apple", "banana", "cherry", "watermelonand", "grape", "strawberry"];
+// const all = arr.every(num => num => toUpperCase());
+// console.log(all);
+
+
+
+// ================= UMIMIY =========================
+
+
+// ========================= 1 -misol ======================
+
+
